@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(148, 209, 189, 0.596);
+  padding: 3rem 0;
+
+  h2 {
+    color: rgb(3, 3, 41);
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    color: #161664;
+    font-size: 25px;
+  }
+  
+  a {
+    font-size: large;
+    color: black;
+  }
+
+  a:hover {
+    background-color: white;
+  }
+
+  form {
+    input {
+      margin: 2rem;
+      padding: 0.7rem;
+    }
+    
+    button {
+      padding: 0.7rem;
+      background-color: #4545a7;
+      color: white;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: white;
+      color: #4545a7;
+    }
+  }
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
